@@ -43,9 +43,9 @@ use rgb::FromSlice;
 use png::HasParameters; // To use encoder.set()
 
 pub struct Spectrogram {
-    spec: Vec<f32>,
-    width: usize,
-    height: usize,
+    pub spec: Vec<f32>,
+    pub width: usize,
+    pub height: usize,
 }
 
 impl Spectrogram {
